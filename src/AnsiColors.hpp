@@ -2,7 +2,7 @@
  * This source header was made by Thomas Olijnsma. (2025)
  * With the purpose of making working with the ANSI 256 color codes more easy and save.
  * Read the documentation for more information.
- * This header is only for C++ 17 and higher. 
+ * This header is only for C++ v17 and higher. 
  */
 
 // Copyright: (c) 2025 Thomas Olijnsma
@@ -3742,5 +3742,6 @@ namespace __LMN_color_categories_defined_::__CONSTEXPR_ANSI_code_conv_helper_fun
         return (bgColor ? bg_color_code[code] : fg_color_code[code]);
     }
 }
+
 
 #endif
