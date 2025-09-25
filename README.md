@@ -5,7 +5,7 @@
 ## Summary
 This API will contain the following features:
   * **All ANSI 256** color codes are sorted out and grouped in to one of the following color classes: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` or `White`; 
-  * The **color classes** themselfs are categorized in *(classes)*: `PrimairyColors`: **containing:** ***Red***, ***Green***, and ***Blue***; `SecondaryColors`: **containing:** ***Cyan***, ***Yellow***, and ***Purple***; `TertiaryColors`: **containing:** ***Orange***, ***Brown***, ******
+  * **Those color classes themselfs** are categorized in to classes: `PrimairyColors` **containing:** ***Red***, ***Green***, and ***Blue***; `SecondaryColors` **containing:** ***Cyan***, ***Yellow***, and ***Purple***; `TertiaryColors` **containing:** ***Orange***, ***Brown***, ******
 
 
 ## Table of Contents
