@@ -9,7 +9,7 @@ This API will contain the following features:
     * **`PrimairyColors`** **which contains:** *`Red`*, *`Green`*, and *`Blue`*;<br>
     * **`SecondaryColors` which contains:** *`Cyan`*, *`Yellow`*, and *`Purple`*;<br>
     * **`TertiaryColors` which contains:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;<br>
-    * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`***:** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
+    * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`* **->** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
   * 
 
 
