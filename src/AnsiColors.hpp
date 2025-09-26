@@ -7,7 +7,6 @@
 
 // Copyright: (c) 2025 Thomas Olijnsma
 // License: MIT: see LICENSE for more details
- 
 
 #ifndef LEMONCODE_ANSICOLORS_HPP
 #define LEMONCODE_ANSICOLORS_HPP
@@ -3745,6 +3744,7 @@ namespace __LMN_color_categories_defined_::__CONSTEXPR_ANSI_code_conv_helper_fun
 
 
 #endif
+
 
 
 
