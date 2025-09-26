@@ -5,11 +5,11 @@
 ## Summary
 This API will contain the following features:
   * **All ANSI 256** color codes are sorted and grouped in to one of the following color classes: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` or `White`; 
-  * **Those color classes themselfs** are categorized in to classes: <br>
-    * **`PrimairyColors`** **containing:** *`Red`*, *`Green`*, and *`Blue`*;<br>
-    * **`SecondaryColors` containing:** *`Cyan`*, *`Yellow`*, and *`Purple`*;<br>
-    * **`TertiaryColors` containing:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;<br>
-    * **`GrayScaleColors` containing:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`***:** a class that redefines the color codes `232 - 255`, also known as the ***(ANSI)*** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
+  * **Those color classes themselfs** are categorized and sorted in to classes: <br>
+    * **`PrimairyColors`** **which contains:** *`Red`*, *`Green`*, and *`Blue`*;<br>
+    * **`SecondaryColors` which contains:** *`Cyan`*, *`Yellow`*, and *`Purple`*;<br>
+    * **`TertiaryColors` which contains:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;<br>
+    * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`***:** a class that redefines the color codes `232 - 255`, also known as the ***(ANSI)*** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
   * 
 
 
