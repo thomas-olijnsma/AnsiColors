@@ -10,7 +10,7 @@ This API will contain the following features, that all within the `ansi_colors` 
     * **`SecondaryColors` which contains:** *`Cyan`*, *`Yellow`*, and *`Purple`*;<br>
     * **`TertiaryColors` which contains:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;<br>
     * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`* **->** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**; <br>
-  * **Namespace** `fg` and `bg`, which both contain an object of type *`PrimaryColors`*, *`SecondaryColors`*, ***etc***; but with **`fg`** containing the *foreground*- and with **`bg`** containing the *background* colors; <br>
+  * **Namespace** `fg` and `bg`, which both contain an object of type *`PrimaryColors`*, *`SecondaryColors`*, ***etc***. Namespace **`fg`** contains the *foreground*- and namespace **`bg`** contains the *background* version of color codes; <br>
   * 
 
 
