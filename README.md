@@ -4,7 +4,7 @@
 [ANSI 256](https://en.wikipedia.org/wiki/ANSI_escape_code) escape codes. <br>
 ## Summary
 This API will contain the following features, that all within the `ansi_colors` **namespace**: 
-  * **A `Color` *(helper)* class** that is almost completely ***constexpr*** and only takes up ***2 bytes of memory***. It can hold all **256** ANSI color codes; as either a ***foreground*** or a ***background*** color;
+  * **A `Color` *helper* class** that is almost completely ***constexpr*** and only takes up ***2 bytes of memory***. It can hold all **256** ANSI color codes; as either a ***foreground*** or a ***background*** color;
   * **Namespace** `fg` and `bg`, which both contain an object of type *`PrimaryColors`*, *`SecondaryColors`*, ***etc***. Namespace **`fg`** contains the *foreground* and namespace **`bg`** contains the *background* version of the color codes; 
   * **All ANSI 256** color codes are sorted and grouped in to one of the following color classes: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` or `White`; 
   * **Those color classes themselfs** are categorized and sorted in to classes: 
