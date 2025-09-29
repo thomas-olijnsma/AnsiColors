@@ -12,7 +12,6 @@ This API will contain the following features, that all within the `ansi_colors` 
     * **`SecondaryColors` which contains:** *`Cyan`*, *`Yellow`*, and *`Purple`*;<br>
     * **`TertiaryColors` which contains:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;<br>
     * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`* **->** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
-
   * **A static struct** `TextStyles` that conains the styles: *`Bold`*, *`Faint`*, *`Italic`*, *`Underline `*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
   * **A static struct** `Reset` that contains the ***reset*** codes for: *`All`*, *`FgColor`*, *`BgColor`*, *`Bold`*, *`Faint`*, *`Italic`*, *`Underline`*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
   *
