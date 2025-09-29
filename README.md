@@ -21,8 +21,10 @@ This API will contain the following features, that live all within the `ansi_col
   * **A static struct** `TextStyles` that conains the styles: *`Bold`*, *`Faint`*, *`Italic`*, *`Underline `*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
     
   * **A static struct** `Reset` that contains the ***reset*** codes for: *`All`*, *`FgColor`*, *`BgColor`*, *`Bold`*, *`Faint`*, *`Italic`*, *`Underline`*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
-  *
-  * `On Windows` **a `ConsoleVtGuard` class instance** is make 
+
+
+  
+  * ***On Windows* a `ConsoleVtGuard` class instance** is make 
 
 
 ## Table of Contents
