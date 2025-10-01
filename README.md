@@ -23,7 +23,8 @@ This API will contain the following features, that live all within the `ansi_col
     
   * **A static struct** `Reset` that contains the ***reset*** codes for: *`All`*, *`FgColor`*, *`BgColor`*, *`Bold`*, *`Faint`*, *`Italic`*, *`Underline`*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
 
-  * 
+  * **A static struct `Defined_Color_Values`** conaining **enum classes *(uint8_t)*** for all 256 color codes, categorized among the colors: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` or `White`;
+  * jooo
   
   * ***On Windows* a `ConsoleVtGuard` class instance** is make 
 
