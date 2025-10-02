@@ -12,12 +12,12 @@ This API will contain the following features, that live all within the `ansi_col
     
   * **All ANSI 256** color codes are sorted and grouped in to one of the following color classes: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` or `White`;
     
-  * **Those color classes themselfs** are categorized and sorted in to classes: 
+  * **Those color classes themselfs** are categorized and sorted in to classes: <br>
+     (All of which are defined in both the `fg` and the `bg` namespace, thus separating the ***foreground*** from the ***background*** colors);
     * **`PrimairyColors`** **which contains:** *`Red`*, *`Green`*, and *`Blue`*;
     * **`SecondaryColors` which contains:** *`Cyan`*, *`Yellow`*, and *`Purple`*;
     * **`TertiaryColors` which contains:** *`Orange`*, *`Brown`*, *`Violet`*, and *`Pink`*;
-    * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`* **->** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;<br>
-     **(All** of which are defined in both the `fg` and the `bg` namespace, thus separating the ***foreground*** from the ***background* colors)**;
+    * **`GrayScaleColors` which contains:** *`Black`*, *`Gray`*, *`White`*, and *`Shades`* **->** a class that redefines the color codes `232 - 255`, also better known as the **(ANSI)** [grayscale](https://en.wikipedia.org/wiki/Grayscale) **colors**;
       
   * **A static struct** `TextStyles` that conains the styles: *`Bold`*, *`Faint`*, *`Italic`*, *`Underline `*, *`Blink`*, *`Inverse`*, *`Hidden`*, and *`Striketrough`*;
     
