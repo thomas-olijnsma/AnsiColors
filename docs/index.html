@@ -8,7 +8,7 @@
     <script>
         (async ()=>{
             try{
-                const res = await fetch('/html/partials/head.html');
+                const res = await fetch('html/partials/head.html');
                 if(!res.ok) throw new Error(res.status);
 
                 document.getElementById('head-placeholder').innerHTML = await res.text();
