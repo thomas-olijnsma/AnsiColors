@@ -10,7 +10,6 @@
             try{
                 const res = await fetch('https://thomas-olijnsma.github.io/AnsiColors/html/partials/head.html');
                 if(!res.ok) throw new Error(res.status);
-
                 document.getElementById('head-placeholder').innerHTML = await res.text();
             } catch(e) {
                 console.error('Could not load: head.html', e);
