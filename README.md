@@ -25,7 +25,9 @@ This API will contain the following features, that live all within the `ansi_col
 
   * **A static struct `Defined_Color_Values`** conaining **enum classes *(uint8_t)*** for all 256 color codes, categorized among the colors: `Red`, `Green`, `Blue`, `Cyan`, `Yellow`, `Purple`, `Orange`, `Brown`, `Violet`, `Pink`, `Black`, `Gray` and `White`;
   
-  * **A function `inline constexpr uint8_t rgb_to_ansi256(uint8_t R, uint8_t G, uint8_t B)`**; that converts ***RGB*** values to the nearest ***ANSI 256*** color code;
+  * **A function `inline constexpr uint8_t rgb_to_ansi256(uint8_t R, uint8_t G, uint8_t B)`**; that converts ***RGB*** values to the nearest ***ANSI 256*** color code value;
+  
+  *  
   
   * ***On Windows* a `ConsoleVtGuard` class instance** is make 
 
