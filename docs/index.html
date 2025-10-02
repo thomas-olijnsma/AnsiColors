@@ -43,7 +43,7 @@
         <script>
             (async ()=>{
                 try{
-                    const res = await fetch('./partials/site-nav-menu.html');
+                    const res = await fetch('https://thomas-olijnsma.github.io/AnsiColors/html/partials/site-nav-menu.html');
                     if(!res.ok) throw new Error(res.status);
                     document.getElementById('site-nav-placeholder').innerHTML = await res.text();
                 } catch(e){
