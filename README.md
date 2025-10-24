@@ -3,6 +3,10 @@
 [AnsiColors](https://github.com/thomas-olijnsma/AnsiColors/blob/main/include/AnsiColors.hpp) is a C++17(+) header-only API that provides an easy to use, high level API. The goal of this project is to be a low overhead, typesafe, and logical abstraction layer; build on top of the 
 [ANSI 256](https://en.wikipedia.org/wiki/ANSI_escape_code) escape codes. 
 
+
+## Table of Contents
+- [Summary](#summary)
+
 ## Summary
 This API will contain the following features, that live all within the `ansi_colors` namespace: 
 
@@ -44,5 +48,3 @@ This API will contain the following features, that live all within the `ansi_col
   * This API is only available for Windows hosts that are atleast version:
        1. Windows 10 hosts: v1511 (build 10586), v1903 (build 18362) or higher;
        2. Windows Server hosts: Windows Server 2016 or higher;
-
-## Table of Contents
