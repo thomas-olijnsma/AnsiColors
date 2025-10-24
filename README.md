@@ -5,9 +5,9 @@
 
 
 ## Table of Contents
-- [Summary](#summary)
+- [Header Overview](#overview)
 
-## Summary
+## Header Overview
 This API will contain the following features, that live all within the `ansi_colors` namespace: 
 
   * **A `Color` *helper* class** that is almost completely ***constexpr*** and only takes up ***2 bytes of memory***. It can hold all **256** ANSI color codes; as either a ***foreground*** or a ***background*** color;
