@@ -27,7 +27,7 @@ This API will contain the following features, that live all within the `ansi_col
   
   * **A function `inline constexpr uint8_t rgb_to_ansi256(uint8_t R, uint8_t G, uint8_t B)`**; that converts ***RGB*** values to the nearest ***ANSI 256*** color code value;
   
-  * **For C++** *`version 20 and higher`*: For all the `std::ostream operator<<(...)` overloads supplied by this API, a **`std::formatter`** is added. This makes that the classes of this API will work with the resent C++ STL features like `std::print()` and `std::println()`;
+  * **For C++** *`version 20 and higher`*: For all the `std::ostream operator<<(...)` overloads in this API, a **`std::formatter`** implementation is added; so that all classes in this API will work with the resent C++(20+) STL features like `std::print()` and `std::println()`;
   
   * ***On Windows* a `ConsoleVtGuard` class instance** is created. This class is automatically constructed and destructed and requires ***no* interaction**. It enables [Virtual Terminal Processing](https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences); which is necessary on **Windows** hosts in order to be able to make use of the *`ANSI 256 escape codes`*.<br>
   **(NOTE):** *Virtual terminal processing* and therefore this **API** on **Windows hosts** is only available for `Windows 10` hosts: **`v1511 (build 10586)`**, **`v1903 (build 18362)`** and ***higher***; and for `Windows Server 2016` or ***higher***; 
