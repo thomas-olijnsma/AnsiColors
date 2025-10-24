@@ -52,3 +52,5 @@ This API will contain the following features, that live all within the `ansi_col
        2. Windows Server hosts: Windows Server 2016 or higher;
 
 ## Installation
+  * There are two main ways to use this header:
+       1. 
