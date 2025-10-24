@@ -545,11 +545,11 @@ namespace __LMN_color_categories_defined_ {
         uint8_t idx;
     public:
         const_Color_iterator(const classType* s, uint8_t i) noexcept : self(s), idx(i){};
-        const Color& operator*() const noexcept {
+        constexpr const Color& operator*() const noexcept {
             return self->*(classType::table[idx]);
         }
-        const_Color_iterator&operator++() noexcept { ++idx; return *this; }
-        bool operator!=(const const_Color_iterator& o) const noexcept { return idx != o.idx; }
+        constexpr const_Color_iterator&operator++() noexcept { ++idx; return *this; }
+        constexpr bool operator!=(const const_Color_iterator& o) const noexcept { return idx != o.idx; }
     };
      
     /// @brief This class defines the primary colors: Red, Green and Blue. 
