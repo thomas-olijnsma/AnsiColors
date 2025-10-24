@@ -4,7 +4,8 @@
 [ANSI 256](https://en.wikipedia.org/wiki/ANSI_escape_code) escape codes. 
 
 ## Requirements & installation
-### Requirements
+### Requirements:
+ * Jooo 
 
 ## Summary
 This API will contain the following features, that live all within the `ansi_colors` **namespace**: 
