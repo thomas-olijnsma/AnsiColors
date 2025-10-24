@@ -5,8 +5,8 @@
 
 
 ## Table of Contents
-- [Header Overview](#header-overview) -> **a quick overview of all namespaces, objects/classes, and functions provided by this API.** <br> ***Note:** Both the methods and operators of the objects, as well as their behavior, will be covered in* [usage.md](./usage.md)
-- [Requirements]()
+- [Header Overview](#header-overview) -> **A quick overview of all namespaces, objects/classes, and functions provided by this API.** <br> ***Note:** Both the methods and operators of the objects, as well as their behavior, will be covered in* [usage.md](./usage.md)
+- [Requirements](#requirements) -> **[AnsiColors.hpp](include/AnsiColors.hpp) only depents on the standard C++ library; Windows hosts must first check whether they're running a compatible Windows version.** <br> *Note: Almost all modern Windows systems are supported; unfortunately, this header `doesn't work on legacy Windows systems.`*
 
 ## Header Overview
 This API will contain the following features, that live all within the `ansi_colors` namespace: 
