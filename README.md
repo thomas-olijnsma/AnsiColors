@@ -5,7 +5,7 @@
 
 ## Requirements & installation
 ### Requirements:
-  * This header only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.
+  * This API only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.
 ### Windows specific requirements:
   * This API is only available for Windows hosts that are atleast version:
        1. Windows 10 hosts: v1511 (build 10586), v1903 (build 18362) or higher;
