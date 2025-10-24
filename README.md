@@ -6,7 +6,7 @@
 
 ## Table of Contents
 1. [Header Overview](#header-overview) -> **A quick overview of all namespaces, objects/classes, and functions provided by this API.** <br> ***Note:** Both the methods and operators of the objects, as well as their behavior, will be covered in* [usage.md](./usage.md)
-2. [Requirements](#requirements) -> **[AnsiColors.hpp](include/AnsiColors.hpp) only depents on the standard C++ library; Windows hosts must first check whether they're running a compatible Windows version.** <br> *Note: **`Almost all modern Windows systems are supported`**; unfortunately, **`this header doesn't work on legacy Windows systems.`***
+2. [Requirements](#requirements) -> **AnsiColors.hpp only depents on the standard C++ library; Windows hosts must first check whether they're running a compatible Windows version.** <br> *Note: **`Almost all modern Windows systems are supported`**; unfortunately, **`this header doesn't work on legacy Windows systems.`***
 3. [Installation](#installation) ->
 
 ## Header Overview
