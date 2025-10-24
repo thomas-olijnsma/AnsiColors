@@ -40,8 +40,8 @@ This API will contain the following features, that live all within the `ansi_col
 
 ## Requirements 
 ### Include requirements:
-  * This API only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.
-  * Headers included:
+  * **This API only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.**
+  * Headers included by this API:
        1. `<iostream>`
        2. `<cstdint`
        3. `<exception>`
