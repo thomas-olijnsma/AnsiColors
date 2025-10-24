@@ -5,7 +5,7 @@
 
 
 ## Table of Contents
-- [Header Overview](#overview)
+- [Header Overview](#header-overview)
 
 ## Header Overview
 This API will contain the following features, that live all within the `ansi_colors` namespace: 
