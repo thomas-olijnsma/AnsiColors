@@ -3,15 +3,8 @@
 [AnsiColors](https://github.com/thomas-olijnsma/AnsiColors/blob/main/include/AnsiColors.hpp) is a C++17(+) header-only API that provides an easy to use, high level API. The goal of this project is to be a low overhead, typesafe, and logical abstraction layer; build on top of the 
 [ANSI 256](https://en.wikipedia.org/wiki/ANSI_escape_code) escape codes. 
 
-## Requirements & installation
-### Requirements:
-  * This API only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.
-### Windows specific requirements:
-  * This API is only available for Windows hosts that are atleast version:
-       1. Windows 10 hosts: v1511 (build 10586), v1903 (build 18362) or higher;
-       2. Windows Server hosts: Windows Server 2016 or higher;
 ## Summary
-This API will contain the following features, that live all within the `ansi_colors` **namespace**: 
+This API will contain the following features, that live all within the `ansi_colors` namespace: 
 
   * **A `Color` *helper* class** that is almost completely ***constexpr*** and only takes up ***2 bytes of memory***. It can hold all **256** ANSI color codes; as either a ***foreground*** or a ***background*** color;
     
@@ -39,5 +32,17 @@ This API will contain the following features, that live all within the `ansi_col
   * ***On Windows* a `ConsoleVtGuard` class instance** is created. This class is automatically constructed and destructed and requires ***no* interaction**. It enables [Virtual Terminal Processing](https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences); which is necessary on **Windows** hosts in order to be able to make use of the *`ANSI 256 escape codes`*.<br>
   **(NOTE):** *Virtual terminal processing* and therefore this **API** on **Windows hosts** is only available for `Windows 10` hosts: **`v1511 (build 10586)`**, **`v1903 (build 18362)`** and ***higher***; and for `Windows Server 2016` or ***higher***; 
 
+## Requirements & installation
+### Requirements:
+  * This API only depends on the C++ standard library to function. It is compatible with cpp versions: C++17, C++20, C++23, and aims to stay compatible with future upcoming C++ standards.
+  * Headers included:
+       1. `<iostream>`
+       2. `<cstdint`
+       3. `<exception>`
+       4. `<limits>`
+### Windows specific requirements:
+  * This API is only available for Windows hosts that are atleast version:
+       1. Windows 10 hosts: v1511 (build 10586), v1903 (build 18362) or higher;
+       2. Windows Server hosts: Windows Server 2016 or higher;
 
 ## Table of Contents
